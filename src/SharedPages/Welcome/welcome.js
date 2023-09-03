@@ -1,9 +1,17 @@
-import React from 'react'
+import Navbar from "../../Components/Navbar/Navbar";
 
-const welcome = () => {
-  return (
-    <div>welcome</div>
-  )
+const Welcome = () => {
+
+  const renderComponent = () => {
+    return(
+      <>
+        <Navbar/>
+        <h1>welcome page</h1>
+      </>
+    )
+  }
+
+  return renderComponent();
 }
 
-export default welcome
+export default Welcome

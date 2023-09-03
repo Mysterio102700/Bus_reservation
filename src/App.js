@@ -1,10 +1,10 @@
 import "./App.css";
-import Welcome from "../src/SharedPages/Welcome/welcome";
+import Routing from "./Routes/Routing";
 
 function App() {
   return (
     <>
-      <Welcome />
+    <Routing/>
     </>
   );
 }
